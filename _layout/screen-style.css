@@ -45,7 +45,11 @@ body{
 				
 		.first-cv-section{ margin:0; padding:30px 40px; }
 			
-			.person{ float:left; margin-top:20px; width:500px; }
+			.person{
+	float:left;
+	margin-top:20px;
+	width:500px;
+}
 				.person img{ float:left; margin-right:25px; padding:10px; }
 				.person  h1{ margin-top:25px; }
 			
@@ -63,7 +67,7 @@ body{
 				
 				.item p{ padding:0 0 15px; }
 				.item ul{ padding:0 0 15px; }
-					.item ul li{}
+					.item ul li{ padding-bottom: 8px;}
 					
 			.last-item{ margin-bottom:0; padding-bottom:0; }
 
@@ -71,7 +75,15 @@ body{
 /* =COLORS-TYPOGRAPHY
 ----------------------------------*/
 
-#cv{ background-color:#FFF; border-bottom:15px solid #FDB020; border-top:15px solid #FDB020; }
+#cv{
+	background-color:#FFF;
+	border-top-width: 15px;
+	border-bottom-width: 15px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #06A;
+	border-bottom-color: #06A;
+}
 
 	.cv-section{ border-bottom:1px solid #dfdfdf; }
 		
@@ -79,7 +91,7 @@ body{
 			
 				.person img{ background-color:#FFF; border:1px solid #dedede; }
 				.person h1{ color:#475261; font-size:48px; font-weight:400; letter-spacing:-1px; }
-				.person h2{ color:#475261; font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:400; letter-spacing:-.7px; text-transform:uppercase; }
+				.person h2{ color:#475261; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:400; letter-spacing:-.7px; text-transform:uppercase; }
 			
 			#contact-info{}
 				ul#social-media{ list-style:none; }
