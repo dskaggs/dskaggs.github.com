@@ -7,7 +7,7 @@ URL: http://www.bitrepository.com/
 
 /////////// Add your own email below ////////////////
 
-	define("WEBMASTER_EMAIL", 'youradress@yourdomain.com');
+	define("WEBMASTER_EMAIL", 'dan.skaggs@web-meister.com');
 	
 	error_reporting (E_ALL ^ E_NOTICE);
 
